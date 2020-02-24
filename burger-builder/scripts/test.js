@@ -36,7 +36,7 @@ function isInMercurialRepository() {
   } catch (e) {
     return false;
   }
-}
+} 
 
 // Watch unless on CI, in coverage mode, explicitly adding `--no-watch`,
 // or explicitly running all tests
